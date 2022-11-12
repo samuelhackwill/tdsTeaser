@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/ubuntu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+}
+
+#bodybody {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-size: 70px;
+  font-family: Ubuntu;
+  color: white;
+  background-color: black;
+  transition: background-color 2s;
+}
+
+#text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#HUGEZOB{
+  cursor: pointer;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
